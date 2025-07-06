@@ -48,7 +48,7 @@ defmodule PhoenixTest.MixProject do
       {:makeup_eex, "~> 0.1.0", only: :dev, runtime: false},
       {:makeup_html, "~> 0.1.0", only: :dev, runtime: false},
       {:mime, ">= 1.0.0", optional: true},
-      {:phoenix, "~> 1.7.10"},
+      {:phoenix, "~> 1.7.10 or ~> 1.8.0-rc.3"},
       {:phoenix_live_view, "~> 0.20 or ~> 1.0"},
       {:plug_cowboy, "~> 2.7", only: :test, runtime: false},
       {:benchee, "~> 1.3", only: [:dev, :test]},
